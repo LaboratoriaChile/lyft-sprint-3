@@ -19,10 +19,11 @@ header{
 	position: fixed;
 	z-index: 1000;
 	width: 100%;
+	height: 14%;
 }
 
 .logo-lyft{
-	width:80px;
+	width:40px;
 	display: inline-block;
 	margin-left: 100px;
 	margin-top: 30px;
@@ -58,6 +59,17 @@ li a:hover:not(.active){
 	width: 100%;
 }
 
+.formulario{
+	position: absolute;
+	z-index: 1;
+	top: 100px;
+	float: right;
+	background-color: #EDE9E2;
+}
+h1{
+	color: #00B2A9;
+}
+
 footer{
 	position: absolute;
 	z-index: 1000;
@@ -70,7 +82,7 @@ footer{
 	width: 30px;
 	float: right;
 	display: inline-block;
-	margin-right:380px;
+	margin-right:630px;
 }
 
 .p-img:hover{
@@ -79,7 +91,7 @@ footer{
 
 footer p{
 	font-family: "Raleway";
-	font-size: 25px;
+	font-size: 17px;
 	text-align: center;
 	padding: 10px;
 }
