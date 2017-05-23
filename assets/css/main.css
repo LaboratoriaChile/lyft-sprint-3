@@ -80,6 +80,7 @@ h1{
 	text-align: center;
 	padding: 10px;
 }
+
 .button{
 	background-color: #F50B93;
 	border-radius: 52px 55px;
@@ -87,6 +88,11 @@ h1{
 	padding: 10px;
 }
 
+.heart{
+width: 8%;
+height: 8%;
+padding-left:10px;
+}
 
 
 footer{
