@@ -62,11 +62,12 @@ li a:hover:not(.active){
 .formulario{
 	position: relative;
 	z-index: 1;
-	top: 100px;
+	top: 130px;
 	float: right;
 	background-color: #EDE9E2;
 	width: 30%;
-	height: 25%;
+	height: 20%;
+	border-radius: 10px;
 
 }
 
@@ -99,12 +100,60 @@ height: 10%;
 padding-left:10px;
 }
 
+.contenedor-juego{
+	background-color: #00B2A9;
+	z-index: 1;
+	position: relative;
+	top: 400px;
+	width: 100%;
+	height: 700px;
+	}
 
+.juego p{
+	background-color: #EDE9E2;
+	text-align: center;
+	color: #75726C;
+	font-size: 36px;
+	bottom:130px;
+}
+
+.juego-form{
+margin-top: 50px;
+text-align: center;
+margin-left: 300px;
+}
+
+.button-juego{
+	background-color: #1F85DA;
+	border-radius: 52px 55px;
+	margin-left: 10px;
+	padding: 10px;
+	width: 50%;
+	margin-top: 40px;
+}
+
+.links{
+	background-color: grey;
+	position: relative;
+	z-index: 1000;
+	bottom: -404px;
+	width:100%;
+	height: 200px;
+	color: white;
+	text-align: center;
+	font-size: 30px;
+	padding: 30px;
+}
+
+
+.enlaces:hover{
+	background-color: #F0E8E7;
+}
 footer{
-	position: absolute;
+	position: relative;
 	z-index: 1000;
 	background-color: #EDE9E2;
-	bottom: -6px;
+	bottom: -604px;
 	width:100%;
 }
 
