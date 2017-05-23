@@ -6,3 +6,48 @@ Colors:
 #75726C;
 #EDE9E2
 */
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	font-family: 'Raleway';
+}
+
+header{
+	background-color: #E54E79;
+}
+
+#logo-lyft{
+display: inline-block;
+width: 5%;
+height: 5%;
+margin-left: 100px;
+background-color: #E54E79;
+	}
+
+ul {
+
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #E54E79;
+}
+
+li{
+	float: left;
+}	
+
+
+li a{
+	display: block;
+	color: white;
+	text-align: right;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover:not(.active){
+	background-color: #E56385;
+}
