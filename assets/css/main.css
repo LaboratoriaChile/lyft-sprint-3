@@ -15,37 +15,34 @@ Colors:
 }
 
 header{
-	background-color: #E54E79;
+	background-color:#F50B93;
 }
 
 #logo-lyft{
-display: inline-block;
-width: 5%;
-height: 5%;
-margin-left: 100px;
-background-color: #E54E79;
-	}
+	display: inline;
+	width: 5%;
+	height: 5%;
+	margin-left: 100px;
+}
 
 ul {
-
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color: #E54E79;
 }
 
 li{
-	float: left;
+	float: right;
 }	
 
 
 li a{
-	display: block;
+	display: inline-block;
 	color: white;
-	text-align: right;
 	padding: 14px 16px;
 	text-decoration: none;
+	bottom:80px;
 }
 
 li a:hover:not(.active){
