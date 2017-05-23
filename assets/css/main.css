@@ -16,6 +16,9 @@ Colors:
 
 header{
 	background-color:#F50B93;
+	position: fixed;
+	z-index: 1000;
+	width: 100%;
 }
 
 .logo-lyft{
@@ -51,17 +54,32 @@ li a:hover:not(.active){
 }
 
 .imagen-estatica{
+	position: fixed;
 	width: 100%;
 }
 
 footer{
+	position: absolute;
+	z-index: 1000;
 	background-color: #EDE9E2;
+	bottom: -6px;
+	width:100%;
 }
 
 .img-footer{
 	width: 30px;
+	float: right;
+	display: inline-block;
+	margin-right:380px;
 }
 
-.img-footer:hover{
+.p-img:hover{
 	background-color: #DC96B9;
+}
+
+footer p{
+	font-family: "Raleway";
+	font-size: 25px;
+	text-align: center;
+	padding: 10px;
 }
