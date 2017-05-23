@@ -60,15 +60,34 @@ li a:hover:not(.active){
 }
 
 .formulario{
-	position: absolute;
+	position: relative;
 	z-index: 1;
 	top: 100px;
 	float: right;
 	background-color: #EDE9E2;
+	width: 30%;
+	height: 25%;
+
 }
+
 h1{
 	color: #00B2A9;
+	text-align: center;
+	padding: 10px;
 }
+
+.formulario p{
+	text-align: center;
+	padding: 10px;
+}
+.button{
+	background-color: #F50B93;
+	border-radius: 52px 55px;
+	margin-left: 10px;
+	padding: 10px;
+}
+
+
 
 footer{
 	position: absolute;
