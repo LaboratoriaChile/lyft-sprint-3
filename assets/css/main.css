@@ -18,11 +18,11 @@ header{
 	background-color:#F50B93;
 }
 
-#logo-lyft{
-	display: inline;
-	width: 5%;
-	height: 5%;
+.logo-lyft{
+	width:80px;
+	display: inline-block;
 	margin-left: 100px;
+	margin-top: 30px;
 }
 
 ul {
@@ -33,18 +33,35 @@ ul {
 }
 
 li{
-	float: right;
+	margin-right: 100px;
+	margin-top: -16px;
 }	
 
 
 li a{
+	float: right;
 	display: inline-block;
 	color: white;
 	padding: 14px 16px;
 	text-decoration: none;
-	bottom:80px;
 }
 
 li a:hover:not(.active){
 	background-color: #E56385;
+}
+
+.imagen-estatica{
+	width: 100%;
+}
+
+footer{
+	background-color: #EDE9E2;
+}
+
+.img-footer{
+	width: 30px;
+}
+
+.img-footer:hover{
+	background-color: #DC96B9;
 }
