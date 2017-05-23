@@ -4,16 +4,30 @@ Colors:
 #E56385;
 #00B2A9;
 #75726C;
-#EDE9E2
+#EDE9E2;
 */
+
+
+header{
+	display: block;
+	position: absolute;
+}
+
+/*menu*/
+
+.menu nav{
+	position: fixed;	
+	top: 0;
+}
 
 nav{
 	background-color: #E54E79;
-	position: fixed;
+	position: absolute;
 	color: #EDE9E2;
 	width: 100%;
-	height: 80px;
+	height: 90px;
 	display: inline-block;
+	padding: 2px;
 }
 
 .logo{
@@ -27,6 +41,7 @@ nav{
 nav ul li{
 	display: inline-block;
 	margin-right: 20px;	
+
 }
 
 li a{
@@ -34,6 +49,62 @@ li a{
 	font-size: 25px;
 	text-decoration: none; 
 }
+
+/*imagen*/
+.cont{
+	position: static;
+	top: 80px;	
+}
+
+/*caja de datos telefono*/
+.caja-dato{
+	width: 510px;
+	height: 380px;
+	left: 780px;
+	bottom: 500px;
+	background-color: #EDE9E2;
+	position: relative;
+	padding: 10px;
+
+}
+
+h1{
+	color: #00B2A9;
+	margin-left: 40px;
+	margin-top: 35px;
+}
+
+h2{
+	color: #75726C;
+	margin-left: 40px;
+}
+
+form{
+	margin-left: 40px;
+}
+
+.boton{
+	color: #EDE9E2;
+	margin-left: 40px;
+	background-color: #E56385;
+	border-radius: 15px;
+	width: 200px;
+	height: 50px;
+	font-size: 15px;
+}
+
+p{
+	margin-left: 40px;
+}
+
+.fa fa-heart{
+	width: 50px;
+	height: 50px;
+	color: #EDE9E2;	
+}
+
+/*header del auto*/
+
 
 
 
