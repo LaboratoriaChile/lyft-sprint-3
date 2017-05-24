@@ -1,11 +1,11 @@
-var teclas = {
+var auto = {
  UP:38,
  DOWN: 40,
  LEFT: 37,
  RIGTH: 39
 };
 
-console.log(teclas);
+console.log(auto);
 document.addEventListener("keydown", dibujarTeclado);
 var cuadrito = document.getElementById("dibujo");
 var papel = cuadrito.getContext("2d");
@@ -27,22 +27,22 @@ function dibujarLinea(color, xinicial, yinicial, xfinal, yfinal, lienzo)
 
 function dibujarTeclado(evento)
 {
-	if (evento.keyCode == teclas.UP) 
+	if (evento.keyCode == auto.UP) 
 	{
 		console.log("vamos para arriba");
 	}
 
-	if (evento.keyCode == teclas.DOWN) 
+	if (evento.keyCode == auto.DOWN) 
 	{
 		console.log("vamos para abajo");
 	}
 
-	if (evento.keyCode == teclas.LEFT) 
+	if (evento.keyCode == auto.LEFT) 
 	{
 		console.log("vamos para la izquierda");
 	}
 
-	if (evento.keyCode == teclas.RIGTH) 
+	if (evento.keyCode == auto.RIGTH) 
 	{
 		console.log("vamos para la derecha");
 	}
@@ -52,22 +52,22 @@ function dibujarTeclado(evento)
 
 	switch(evento.keyCode)
 	{
-		case teclas.UP:
+		case auto.UP:
 			dibujarLinea(color, x, y, x, y - movimiento, papel);
 			y = y - movimiento;
 		break;
 
-		case teclas.DOWN:
+		case auto.DOWN:
 			dibujarLinea(color, x, y, x, y + movimiento, papel);
 			y = y + movimiento;
 		break;
 
-		case teclas.LEFT:
+		case auto.LEFT:
 			dibujarLinea(color, x, y, x - movimiento, y, papel);
 			x = x - movimiento;
 		break;
 
-		case teclas.RIGTH:
+		case auto.RIGTH:
 			dibujarLinea(color, x, y, x + movimiento, y, papel);
 			x = x + movimiento;
 		break;
