@@ -57,6 +57,7 @@ li a:hover:not(.active){
 .imagen-estatica{
 	position: fixed;
 	width: 100%;
+	z-index: 0;
 }
 
 .formulario{
@@ -154,6 +155,33 @@ margin-left: 300px;
 	display: inline-block;
 	width: 5%;
 }
+
+.contenedor-tablero{
+  border: 5px solid #900C3F;
+  z-index: 10000;
+  position: relative;
+  top:400px;
+  background-color: red;
+  opacity: 0.9;
+  float: left;
+  height: 50px;
+  width:100%;
+  padding: 30px;
+}
+
+.casilla{
+  box-sizing: border-box;
+  /*Es mejor con float:left*/
+  display:inline-block;
+  background-color: #581845;
+  color: whitesmoke;
+  padding: 10px;
+  font-family: sans-serif;
+  width: 10%;
+  text-align: center;
+  border: 5px #900C3F solid;
+}
+
 footer{
 	position: relative;
 	z-index: 1000;
