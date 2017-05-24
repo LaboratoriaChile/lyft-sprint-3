@@ -6,7 +6,9 @@ Colors:
 #75726C;
 #EDE9E2;
 */
-
+body{
+	font-family: 'raleway';
+}
 
 header{
 	display: block;
@@ -53,40 +55,45 @@ li a{
 
 /*imagen*/
 .cont{
-	position: static;
 	top: 80px;	
 }
 
+#imag{
+	position: fixed;
+}
+
 /*caja de datos telefono*/
-.imag{
+#caja-dato{
+	width: 510px;
+	height: 380px;
+	top: 210px;
+	left: 825px;
+	background-color: #EDE9E2;
+	position: absolute;
+	padding: 1px;
 	
 }
 
-.caja-dato{
-	width: 510px;
-	height: 380px;
-	left: 780px;
-	bottom: 500px;
-	background-color: #EDE9E2;
-	position: relative;
-	padding: 10px;
-	right: 0;
-
-}
-
-h1{
+#caja-dato h1{
 	color: #00B2A9;
 	margin-left: 40px;
 	margin-top: 35px;
 }
 
-h2{
+#caja-dato h3{
 	color: #75726C;
 	margin-left: 40px;
 }
 
-form{
+.fono{
 	margin-left: 40px;
+	width: 400px;
+
+}
+
+input{
+	border: none;
+	border-bottom: 2px;
 }
 
 .boton{
@@ -99,7 +106,7 @@ form{
 	font-size: 15px;
 }
 
-p{
+#caja-dato p{
 	margin-left: 40px;
 }
 
@@ -111,13 +118,14 @@ p{
 
 /*header del auto*/
 
-.auto{
+#auto{
 	background-color: #00B2A9;
-	width: 100%;
-	height: 900px;
+	width: 1320px;
+	height: 500px;
 	position: absolute;
-	top: 700px;
+	top: 790px;
 	padding: 3px;
+	
 }
 
 .auto1{
@@ -125,29 +133,45 @@ p{
 	width: 100%;
 	height: 80px;
 	position: relative;
-	top: 90px;
+	top: 70px;
 	color: #75726C;
 	font-size: 60px;
 	padding: 5px;
+	
 }
 
 .auto2{
 	background-color: #EDE9E2;
 	width: 800px;
-	height: 500px;
+	height: 200px;
 	position: relative;
 	left: 250px;
 	bottom: 100px; 
 	color: #75726C;
 	padding: 5px;
+	top: 1000px;
+	display: inline-block;
 }
 
 #aut1{
-	display: inline-block;
+	display: inline;
+	width: 300px;
+	margin-right: 20px;
+	margin-top: 20px;
 }
 
 #aut2{
-	display: inline-block;
+	display: inline;
+	width: 300px;
+}
+
+.auto3 button{
+	color: #EDE9E2;	
+	background-color: #00B2A9;
+	border-radius: 15px;
+	width: 700px;
+	height: 50px;
+	margin-top: 30px;
 }
 
 

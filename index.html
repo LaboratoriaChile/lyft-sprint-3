@@ -5,6 +5,10 @@
 	<title>Lyft sprint 3</title>
 	<link rel="stylesheet" href="assets/css/main.css">
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">	
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 </head>
 <body>
 	
@@ -12,7 +16,7 @@
 	<header>
 	<div class="menu">
 	<nav>	
-		<div class="logo"><img src="assets/img/logo-white.png" width="100" height="50" align="left">
+		<div class="logo"><img src="assets/img/logo-white.png" class="img-responsive" width="90" height="40" align="left">
 		<div class="lista" align="right">
 		<ul>
 			<li><a href="">Drive</a></li>
@@ -26,36 +30,45 @@
 	<!--header-->
 		<!--header de la imagen-->	
 		<div class="cont">
-			<div class="imag">
-				<img src="assets/img/cropped-Lyft-Promo-Codes-car-1.jpg" width="101%" height="700">
-				<div class="caja-dato">
-					<h1><strong>TURN MILES INTO MONEY</strong></h1>
-					<h2>SING UP TO DRIVE LIFT</h2>
-					<form data-toggle="validator" role="form">
-						<input type="number" id="tel" class="form-control" placeholder="Phone number">
-					</form><br>
-					<button class="boton">BECOME A DRIVER
-						<span class="fa fa-heart" aria-hidden="true"></span>
-					</button>
-					<p>Already applied? Check the status of your application here</p>					
+			<div id="imag" class="container-fluid">
+				<div class="col-ls-12">
+					<img src="assets/img/cropped-Lyft-Promo-Codes-car-1.jpg" class="img-responsive" width="auto" height="500">
 				</div>
 			</div>
+
+			<div id="caja-dato" class="container-fluid">
+				<div class="col-ls-12">
+					<h1><strong>TURN MILES INTO MONEY</strong></h1>
+					<h3>SING UP TO DRIVE LIFT</h3>
+					<div class="fono"><input type="number" placeholder="Phone number"></div>
+					<br>
+					<button class="boton">BECOME A DRIVER
+					<span class="fa fa-heart" aria-hidden="true"></span>
+					</button><br><br>
+					<p>Already applied? Check the status of your application here</p>
+					<p>Already applied? Check the status of your application here</p>
+				</div>					
+			</div>			
 		</div>
 
 		<!--header de la imagen-->	
-		<div class="auto">
-			<div class="auto1" align="center">PLAY WITH LYFT</div>
-		</div>
-		<div class="auto2" align="center">
-			<form data-toggle="validator" role="form">
-						<input type="number" id="aut1" class="form-control" placeholder="">
-			</form>
-			<form data-toggle="validator" role="form">
-						<input type="number" id="aut2" class="form-control" placeholder="">
-			</form>
+		<div class="container-fluid">
+			<div class="col-ls-12" id="auto">
+				<div class="auto1" align="center">PLAY WITH LYFT</div>
+			</div>
+			<div class="auto2" align="center">
+				<span class="fa fa-car" aria-hidden="true"></span>  <input type="number" id="aut1" class="form-control" placeholder="X coordinate">
+				<span class="fa fa-car" aria-hidden="true"></span>  <input type="number" id="aut2" class="form-control" placeholder="Y coordinate">
+			
+			<div class="auto3" align="center">
+				<button class="aut">STAR</button>
+			</div>
+			</div>
 		</div>
 	</header>
 	
 	<script src="assets/js/main.js"></script>
+	<script src="js/jquery.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
 </html>
