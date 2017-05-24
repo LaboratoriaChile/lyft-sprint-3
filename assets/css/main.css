@@ -4,5 +4,174 @@ Colors:
 #E56385;
 #00B2A9;
 #75726C;
-#EDE9E2
+#EDE9E2;
 */
+body{
+	font-family: 'raleway';
+}
+
+header{
+	display: block;
+	position: absolute;
+}
+
+/*menu*/
+
+.menu nav{
+	position: fixed;	
+	top: 0;	
+}
+
+nav{
+	background-color: #E54E79;
+	position: absolute;
+	color: #EDE9E2;
+	width: 100%;
+	height: 90px;
+	display: inline-block;
+	padding: 2px;
+	z-index: 1;
+}
+
+.logo{
+	margin-left: 30px;
+}
+
+.lista{
+	margin-right: 220px;	
+}
+
+nav ul li{
+	display: inline-block;
+	margin-right: 20px;	
+
+}
+
+li a{
+	color: #EDE9E2;
+	font-size: 25px;
+	text-decoration: none; 
+}
+
+/*imagen*/
+.cont{
+	top: 80px;	
+}
+
+#imag{
+	position: fixed;
+}
+
+/*caja de datos telefono*/
+#caja-dato{
+	width: 510px;
+	height: 380px;
+	top: 210px;
+	left: 825px;
+	background-color: #EDE9E2;
+	position: absolute;
+	padding: 1px;
+	
+}
+
+#caja-dato h1{
+	color: #00B2A9;
+	margin-left: 40px;
+	margin-top: 35px;
+}
+
+#caja-dato h3{
+	color: #75726C;
+	margin-left: 40px;
+}
+
+.fono{
+	margin-left: 40px;
+	width: 400px;
+
+}
+
+input{
+	border: none;
+	border-bottom: 2px;
+}
+
+.boton{
+	color: #EDE9E2;
+	margin-left: 40px;
+	background-color: #E56385;
+	border-radius: 15px;
+	width: 200px;
+	height: 50px;
+	font-size: 15px;
+}
+
+#caja-dato p{
+	margin-left: 40px;
+}
+
+.fa fa-heart{
+	width: 50px;
+	height: 50px;
+	color: #EDE9E2;	
+}
+
+/*header del auto*/
+
+#auto{
+	background-color: #00B2A9;
+	width: 1320px;
+	height: 500px;
+	position: absolute;
+	top: 790px;
+	padding: 3px;
+	
+}
+
+.auto1{
+	background-color: #EDE9E2;
+	width: 100%;
+	height: 80px;
+	position: relative;
+	top: 70px;
+	color: #75726C;
+	font-size: 60px;
+	padding: 5px;
+	
+}
+
+.auto2{
+	background-color: #EDE9E2;
+	width: 800px;
+	height: 200px;
+	position: relative;
+	left: 250px;
+	bottom: 100px; 
+	color: #75726C;
+	padding: 5px;
+	top: 1000px;
+	display: inline-block;
+}
+
+#aut1{
+	display: inline;
+	width: 300px;
+	margin-right: 20px;
+	margin-top: 20px;
+}
+
+#aut2{
+	display: inline;
+	width: 300px;
+}
+
+.auto3 button{
+	color: #EDE9E2;	
+	background-color: #00B2A9;
+	border-radius: 15px;
+	width: 700px;
+	height: 50px;
+	margin-top: 30px;
+}
+
+
