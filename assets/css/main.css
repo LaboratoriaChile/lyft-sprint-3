@@ -68,7 +68,7 @@ li a{
 	width: 510px;
 	height: 380px;
 	top: 210px;
-	left: 815px;
+	left: 790px;
 	background-color: #EDE9E2;
 	position: absolute;
 	padding: 1px;
@@ -123,7 +123,7 @@ input{
 
 #auto{
 	background-color: #00B2A9;
-	width: 1320px;
+	width: 1280px;
 	height: 500px;
 	position: absolute;
 	top: 790px;
@@ -184,7 +184,7 @@ input{
 
 #conte{
 	background-color: #75726C;
-	width: 1320px;
+	width: 1280px;
 	height: 280px;
 	position: absolute;
 	top: 1290px;
@@ -274,11 +274,11 @@ input{
 
 #auto4{
 	background-color: #00B2A9;
-	width: 1320px;
+	width: 1280px;
 	height: 500px;
 	position: absolute;
 	padding: 3px;	
-	margin-top: 100px;
+	margin-top: 90px;
 }
 
 /*footer index2*/
@@ -333,3 +333,7 @@ input{
 	font-size: 40px;
 }
 
+.juego #cars{
+	display: block;
+	position: relative;
+}

@@ -7,12 +7,12 @@ var teclas = {
 
 console.log(teclas);
 document.addEventListener("keydown", dibujarTeclado);
-var cuadrito = document.getElementById("area_de_dibujo");
+var cuadrito = document.getElementById("dibujo");
 var papel = cuadrito.getContext("2d");
 var x = 150;
 var y = 150;
 
-dibujarLinea("red", x-1, y-1, x+1, y+1, papel);
+dibujarLinea("purple", x-1, y-1, x+1, y+1, papel);
 
 function dibujarLinea(color, xinicial, yinicial, xfinal, yfinal, lienzo)
 {
@@ -47,33 +47,31 @@ function dibujarTeclado(evento)
 		console.log("vamos para la derecha");
 	}
 
-	var colorcito = "purple";
+	var color = "purple";
 	var movimiento = 1;
 
 	switch(evento.keyCode)
 	{
 		case teclas.UP:
-			dibujarLinea(colorcito, x, y, x, y - movimiento, papel);
+			dibujarLinea(color, x, y, x, y - movimiento, papel);
 			y = y - movimiento;
 		break;
 
 		case teclas.DOWN:
-			dibujarLinea(colorcito, x, y, x, y + movimiento, papel);
+			dibujarLinea(color, x, y, x, y + movimiento, papel);
 			y = y + movimiento;
 		break;
 
 		case teclas.LEFT:
-			dibujarLinea(colorcito, x, y, x - movimiento, y, papel);
+			dibujarLinea(color, x, y, x - movimiento, y, papel);
 			x = x - movimiento;
 		break;
 
 		case teclas.RIGTH:
-			dibujarLinea(colorcito, x, y, x + movimiento, y, papel);
+			dibujarLinea(color, x, y, x + movimiento, y, papel);
 			x = x + movimiento;
 		break;
 
-		default:
-		console.log("otra tecla");
-		 break;
+		
 	}
 }
