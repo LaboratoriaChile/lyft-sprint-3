@@ -6,3 +6,204 @@ Colors:
 #75726C;
 #EDE9E2
 */
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	font-family: 'Raleway';
+}
+
+header{
+	background-color:#F50B93;
+	position: fixed;
+	z-index: 1000;
+	width: 100%;
+	height: 14%;
+}
+
+.logo-lyft{
+	width:40px;
+	display: inline-block;
+	margin-left: 100px;
+	margin-top: 30px;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+li{
+	margin-right: 100px;
+	margin-top: -16px;
+}	
+
+
+li a{
+	float: right;
+	display: inline-block;
+	color: white;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover:not(.active){
+	background-color: #E56385;
+}
+
+.imagen-estatica{
+	position: fixed;
+	width: 100%;
+	z-index: 0;
+}
+
+.formulario{
+	position: relative;
+	z-index: 1;
+	top: 130px;
+	float: right;
+	background-color: #EDE9E2;
+	width: 30%;
+	height: 20%;
+	border-radius: 10px;
+
+}
+
+h1{
+	color: #00B2A9;
+	text-align: center;
+	padding: 10px;
+}
+
+h2{
+text-align: center;
+}
+
+.formulario p{
+	text-align: center;
+	padding: 10px;
+}
+
+.button{
+	background-color: #F50B93;
+	border-radius: 52px 55px;
+	margin-left: 10px;
+	padding: 10px;
+	width: 50%;
+}
+
+.heart{
+width: 15%;
+height: 10%;
+padding-left:10px;
+}
+
+.contenedor-juego{
+	background-color: #00B2A9;
+	z-index: 1;
+	position: relative;
+	top: 400px;
+	width: 100%;
+	height: 700px;
+	}
+
+.juego p{
+	background-color: #EDE9E2;
+	text-align: center;
+	color: #75726C;
+	font-size: 36px;
+	bottom:130px;
+}
+
+.juego-form{
+margin-top: 50px;
+text-align: center;
+margin-left: 300px;
+}
+
+.button-juego{
+	background-color: #1F85DA;
+	border-radius: 52px 55px;
+	margin-left: 10px;
+	padding: 10px;
+	width: 50%;
+	margin-top: 40px;
+}
+
+.links{
+	background-color: grey;
+	position: relative;
+	z-index: 1000;
+	bottom: -404px;
+	width:100%;
+	height: 200px;
+	color: white;
+	text-align: center;
+	font-size: 30px;
+	padding: 30px;
+}
+
+
+.enlaces:hover{
+	background-color: #F0E8E7;
+}
+
+.auto{
+	display: inline-block;
+	width: 5%;
+}
+
+.contenedor-tablero{
+  border: 5px solid #900C3F;
+  z-index: 10000;
+  position: relative;
+  top:400px;
+  background-color: red;
+  opacity: 0.9;
+  float: left;
+  height: 50px;
+  width:100%;
+  padding: 30px;
+}
+
+.casilla{
+  box-sizing: border-box;
+  /*Es mejor con float:left*/
+  display:inline-block;
+  background-color: #581845;
+  color: whitesmoke;
+  padding: 10px;
+  font-family: sans-serif;
+  width: 10%;
+  text-align: center;
+  border: 5px #900C3F solid;
+}
+
+footer{
+	position: relative;
+	z-index: 1000;
+	background-color: #EDE9E2;
+	bottom: -604px;
+	width:100%;
+}
+
+.img-footer{
+	width: 30px;
+	float: right;
+	display: inline-block;
+	margin-right:630px;
+}
+
+.p-img:hover{
+	background-color: #DC96B9;
+}
+
+footer p{
+	font-family: "Raleway";
+	font-size: 17px;
+	text-align: center;
+	padding: 10px;
+}
