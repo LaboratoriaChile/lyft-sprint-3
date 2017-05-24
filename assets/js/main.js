@@ -1,9 +1,6 @@
-<<<<<<< HEAD
+
 /*
 //para hacer aparecer el tablero de juego, pero no funciona :( 
-=======
-
->>>>>>> ed79deba78cd1535ccab747cc6948afc62809867
 
 var button=document.getElementById("boton-juego");
 
@@ -18,10 +15,8 @@ button.addEventListener("click", function() {
 
 });
 
-<<<<<<< HEAD
 //intentando hacer el juego con el codigo de blanca
-=======
->>>>>>> ed79deba78cd1535ccab747cc6948afc62809867
+
 
 //Defino el tablero
 var tablero = [
@@ -32,7 +27,6 @@ var tablero = [
   [0,0,0,0,0,0,0,0,0,0],
   [0,0,0,0,0,0,0,0,0,0]
 ]
-<<<<<<< HEAD
 
 //Ingreso el auto segun coordenadas del usuario (rescato las coordenadas)
 
@@ -49,20 +43,6 @@ var divTablero = document.getElementById("contenedor-tablero");
 var fila, casilla;
 
 
-=======
-//Ingreso el auto en la posicion 3,5
-tablero[3][5] = "A";
-
-//Obtengo el div en donde se dibujará el tablero
-var divTablero = document.getElementById("tablero");
-
-//Variables temporales
-var fila, casilla;
-
-var x = document.getElementById("coorx").value;
-var y = document.getElementById("coory").value;
->>>>>>> ed79deba78cd1535ccab747cc6948afc62809867
-
 //Recorro el arreglo para dibujar el tablero
 for(var i = 0; i<tablero.length; i++){
   fila = document.createElement("div");
@@ -75,7 +55,6 @@ for(var i = 0; i<tablero.length; i++){
   }
   divTablero.appendChild(fila);
 }
-<<<<<<< HEAD
 
 otro intento del juego
 
@@ -119,5 +98,4 @@ function dibujarTeclado(evento)
 {
   console.log(evento.keyCode);
 }
-=======
->>>>>>> ed79deba78cd1535ccab747cc6948afc62809867
+
