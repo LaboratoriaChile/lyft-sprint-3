@@ -6,3 +6,121 @@ Colors:
 #75726C;
 #EDE9E2
 */
+body{
+	font-family: 'Raleway', sans-serif;
+}
+
+nav{
+	background-color: #E54E79;
+}
+.brand-logo img{
+	width: 60px;
+	margin-top: 10px;
+}
+.principal{
+	height: 100vh;
+	background-image: url(http://ridesharecodes.com/wp-content/uploads/2017/02/cropped-Lyft-Promo-Codes-car-1.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+.principal .caja-blanca{
+	background-color: rgba(237,233,226,1);
+	position: absolute;
+	right: 0;
+	top: 16%;
+	box-sizing: border-box;
+	padding: 40px 60px 50px 40px;
+}
+
+.principal .caja-blanca h2{
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #00B2A9;;
+	font-size: 1.8em;
+}
+
+.principal .caja-blanca h3{
+	text-transform: uppercase;
+	font-weight: 300;
+	color: #75726C;
+	font-size: 1em;
+}
+
+.principal .caja-blanca .btn-big{
+	border-radius: 15px;
+	background-color: #E56385;
+	height: 45px;
+	line-height: 45px;
+}
+
+.juego{
+	background-color: #00B2A9;
+	padding: 40px 0;
+}
+
+#tablero{
+	position: relative;
+	height: auto;
+	background-color: #EDE9E2;
+	padding: 40px;
+}
+#formulario{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	
+}
+a.block{
+	display: block;
+	border-radius: 15px;
+}
+.h2-play{
+	background-color: #EDE9E2;
+	padding: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+	color: #75726C;
+	margin-top: 40px;
+	margin-bottom: 80px;
+}
+#tablero i{
+	color: #75726C;
+}
+.fila{
+
+}
+.fila:before, .fila:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.taxi, .empty, .visitada{
+	box-sizing: border-box;
+	float: left;
+	width: 10%;
+	height: 80px;
+}
+.empty{	
+	background-color: #75726C;
+}
+
+.taxi{
+	background-color: #E56385;
+	background-image: url(../img/car.png);
+	background-size: contain;
+	background-position: center 6px ;
+	background-repeat: no-repeat; 
+}
+
+.visitada{
+	background-color: #E54E79;
+}
+
+.page-footer{
+	background-color: #75726C;
+}

@@ -2,10 +2,102 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Title</title>
+	<title>Play Lyft</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500" rel="stylesheet">
+
+	<!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+
 	<link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
+	<header class="">
+		<nav>
+	    <div class="nav-wrapper container">
+	      <a href="#" class="brand-logo"><img src="assets/img/logo-white.png" alt=""></a>
+	      <ul id="nav-mobile" class="right hide-on-med-and-down">
+	        <li><a href="sass.html">Drive</a></li>
+	        <li><a href="badges.html">Explore</a></li>
+	        <li><a href="collapsible.html">Help</a></li>
+	      </ul>
+	    </div>
+	  </nav>
+	</header>
+	<section class="principal">
+		<div class="caja-blanca">
+			<h2>
+				Turn Miles Into Money
+			</h2>
+			<h3>Sign up to drive lyft</h3>
+			<form action="#">
+				<input type="text" placeholder="Phone Number">
+				<a class="waves-effect waves-light btn btn-big">
+					Become a driver
+					<i class="fa fa-heart"></i>
+				</a>
+			</form>
+			<p class="small">
+				Already applied?
+				<span>Check the status of your application here.</span>
+			</p>
+			<p class="small">
+				Earn money for inviting friends to drive.
+				<span> Learn more. </span>
+			</p>
+		</div>
+	</section>
+	<section class="juego">
+		<h2 class="h2-play">Play with Lyft</h2>
+		<div class="container">
+			
+			<div id="tablero">
+				<div class="row">
+					
+			    <form class="col s12">
+			      <div class="row">
+			        <div class="input-field col s6">
+			          <i class="fa fa-car prefix"></i>
+			          <input id="coord_x" type="text" class="validate" placeholder="X coordinate">
+			        </div>
+			        <div class="input-field col s6">
+			          <i class="fa fa-car prefix"></i>
+			          <input id="coord_y" type="tel" class="validate" placeholder="Y coordinate">
+			        </div>
+			      </div>
+			    </form>
+			    <a href="#" id="start-button" class="waves-effect waves-light btn-large block"> Start </a>
+			  </div>
+				
+			</div>	
+		</div>		
+	</section>
+	<footer class="page-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Sprint 3 - Project</h5>
+          <p class="grey-text text-lighten-4">You can custom the footer and its content</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Links</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      © 2017 Lyft & Laboratoria, Inc
+      <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+      </div>
+    </div>
+  </footer>
 	<script src="assets/js/main.js"></script>
 </body>
 </html>
