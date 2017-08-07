@@ -1,3 +1,12 @@
+/*validacion telefono*/
+
+  function telefono(){ 
+    var phone = document.getElementById("fono").value;
+    if (!(/^(?=.*\d).{9}$/).test(phone)){
+      alert("Número inválido")
+    }
+  }
+ telefono();
 
 /*
 //para hacer aparecer el tablero de juego, pero no funciona :( 
